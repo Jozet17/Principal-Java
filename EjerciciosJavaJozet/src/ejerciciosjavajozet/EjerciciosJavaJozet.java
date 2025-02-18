@@ -1,20 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package ejerciciosjavajozet;
-
-/**
- *
- * @author Usuario
- */
+import java.util.Scanner;
+        
 public class EjerciciosJavaJozet {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner menu = new Scanner(System.in);
+        System.out.println("Ingrese el ejercicio que quieras ver (1-30):");
+        int opcion = menu.nextInt();
+        
+        if(opcion >0 && opcion <=30){
+            if (opcion == 1) {EjercicioFactura objEjercicioFactura = new EjercicioFactura();}
+            if (opcion == 2) {Ejercicio2.Ascensor();} 
+        }
     }
     
 }
