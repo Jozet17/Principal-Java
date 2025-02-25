@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Ejercicio2 {
     public static void Ascensor() {
+        System.out.println("Ejercicio 2");
         tomardatos();
     }
     
